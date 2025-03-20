@@ -2,6 +2,15 @@
 
 export const AdmButton = () => {
     return (
-        <button onClick={()=>{window.location.href = '/Adm';}}>Adm Button</button>
+        <button onClick={()=>{
+            if (typeof window !== "undefined") {
+                if(localStorage.getItem("auth")) {
+                    window.location.href = '/Adm';
+                }else {
+                    alert("Você não está logado");
+                }
+            }
+        
+        }}>Adm Button</button>
     );
 }
