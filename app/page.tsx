@@ -1,5 +1,5 @@
 import React from "react";
-import { LoginForm } from "./Login/LoginForm";
+import LoginPage from "./Login/LoginPage";
 
 export const metadata = {
   title: "Testes Automatizados",
@@ -7,6 +7,6 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <LoginForm/>
+    <LoginPage/>
   );
 }
