@@ -1,12 +1,12 @@
 import React from "react";
+import { LoginForm } from "./Login/LoginForm";
 
 export const metadata = {
-  title: "App Router",
+  title: "Testes Automatizados",
 };
 
 export default function Page() {
   return (
-  <>
-    Teste
-  </>);
+    <LoginForm/>
+  );
 }
