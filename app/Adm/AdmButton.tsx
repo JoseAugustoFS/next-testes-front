@@ -11,6 +11,6 @@ export const AdmButton = () => {
                 }
             }
         
-        }}>Adm Button</button>
+        }}>Página do Adm</button>
     );
 }
