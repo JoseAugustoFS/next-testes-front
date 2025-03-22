@@ -1,4 +1,4 @@
-# Next.js + Jest
+# Next.js + Jest + Cucumber
 
 This example shows how to configure Jest to work with Next.js.
 
@@ -11,6 +11,16 @@ This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScri
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-jest&project-name=with-jest&repository-name=with-jest)
 
 ## How to Use
+
+Execute the scripts bellow to install the Cucumber:
+
+```bash
+npm install playwright @cucumber/cucumber
+```
+
+```bash
+npx playwright install
+```
 
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
@@ -30,6 +40,10 @@ pnpm create next-app --example with-jest with-jest-app
 
 ```bash
 npm test
+```
+
+```bash
+npx cucumber-js
 ```
 
 ```bash
