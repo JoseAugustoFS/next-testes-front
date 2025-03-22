@@ -15,6 +15,10 @@ This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScri
 Execute the scripts bellow to install the Cucumber:
 
 ```bash
+npm install @cucumber/cucumber
+```
+
+```bash
 npm install playwright @cucumber/cucumber
 ```
 
