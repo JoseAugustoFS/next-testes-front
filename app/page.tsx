@@ -10,6 +10,7 @@ export default function Page() {
   return (
     <div>
       <LoginPage/>
+      Teste
       <AdmButton/>
     </div>
   );
